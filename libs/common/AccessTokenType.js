@@ -1,0 +1,1 @@
+"use strict";var e;Object.defineProperty(exports,"__esModule",{value:!0}),exports.AccessTokenTypeMap=exports.AccessTokenType=void 0,function(e){e[e.READ_ONLY=1]="READ_ONLY",e[e.READ_WRITE=2]="READ_WRITE"}(e=exports.AccessTokenType||(exports.AccessTokenType={})),exports.AccessTokenTypeMap={1:e.READ_ONLY,2:e.READ_WRITE};

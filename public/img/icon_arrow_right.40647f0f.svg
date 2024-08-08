@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_折叠</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="16"></rect>
+    </defs>
+    <g id="个人中心--2021.10.14" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备部件裁剪-默认添加部件" transform="translate(-64.000000, -275.000000)">
+            <g id="内容" transform="translate(24.000000, 121.000000)">
+                <g id="左侧栏" transform="translate(24.000000, 72.000000)">
+                    <g id="2备份-6" transform="translate(0.000000, 66.000000)">
+                        <g id="icon_折叠" transform="translate(16.000000, 16.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="矩形"></g>
+                            <path d="M9.41421356,4 C9.69035594,4 9.91421356,4.22385763 9.91421356,4.5 L9.91421356,11.5 C9.91421356,11.7761424 9.69035594,12 9.41421356,12 L9.40421356,11.999 L2.41421356,12 C2.13807119,12 1.91421356,11.7761424 1.91421356,11.5 C1.91421356,11.2238576 2.13807119,11 2.41421356,11 L8.91421356,10.999 L8.91421356,4.5 C8.91421356,4.22385763 9.13807119,4 9.41421356,4 Z" id="形状结合" fill="#808080" mask="url(#mask-2)" transform="translate(5.914214, 8.000000) rotate(-45.000000) translate(-5.914214, -8.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

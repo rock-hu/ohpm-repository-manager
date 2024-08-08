@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.PageData=void 0;exports.PageData=class{constructor(t,e,a){this.currentPage=t,this.totalPage=e,this.totalSize=a}};

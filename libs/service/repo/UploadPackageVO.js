@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.UploadPackageVO=void 0;exports.UploadPackageVO=class{constructor(e){this.name=e.name,this.version=e.version,this.author=e.author,this.description=e.description,this.license=e.license,this.keywords=e.keywords}};

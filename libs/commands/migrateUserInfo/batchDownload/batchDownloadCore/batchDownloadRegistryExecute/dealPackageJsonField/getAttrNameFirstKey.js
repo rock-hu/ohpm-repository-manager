@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getAttrNameFirstKey=void 0,exports.getAttrNameFirstKey=function(e){let t=e;return e.includes(".")&&(t=e.slice(0,e.indexOf("."))),t};

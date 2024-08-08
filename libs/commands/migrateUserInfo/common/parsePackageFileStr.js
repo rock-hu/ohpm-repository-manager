@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.parsePackageFileStr=void 0;const e=require("../definitions");exports.parsePackageFileStr=function(r){const s={name:"",version:""},t=r.replace(e.CHAR_ADD,"/"),i=t.lastIndexOf(e.CHAR_AT);return s.name=t.slice(0,i),s.version=t.slice(i+1),s};

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FileInfo=void 0;exports.FileInfo=class{constructor(e){this.mimetype=e.mimetype,this.path=e.path,this.size=e.size,this.fileName=e.originalname}};

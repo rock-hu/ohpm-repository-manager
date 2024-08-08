@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ValidatorFactory=void 0;const t=require("./validator");exports.ValidatorFactory=class{static createDefaultValidator(a){const e=new t.PackageValidatorImpl(void 0,a);return e.loadDefaultConfig(),e}};

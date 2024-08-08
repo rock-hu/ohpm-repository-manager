@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.dealTypesField=void 0;const e=require("./getAttrNameFirstKey"),t=require("./printDeleteWarnLog");exports.dealTypesField=function(r,i,s){const o=(0,e.getAttrNameFirstKey)(r);s[o]||((0,t.printDeleteWarnLog)(i,r,s[o]),delete s[o])};

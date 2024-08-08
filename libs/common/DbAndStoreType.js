@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.StorageType=exports.DbType=void 0,function(e){e.FileDb="filedb",e.Mysql="mysql"}(exports.DbType||(exports.DbType={})),function(e){e.Fs="fs",e.Sftp="sftp",e.Custom="custom"}(exports.StorageType||(exports.StorageType={}));

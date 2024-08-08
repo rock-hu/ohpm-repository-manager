@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.PageUtil=exports.MAX_PAGE_SIZE=void 0,exports.MAX_PAGE_SIZE=5e5;exports.PageUtil=class{static formPage(e,t,a,s){return{total:e,pageNum:t,pageSize:a,pages:Math.ceil(e/a),data:s}}};

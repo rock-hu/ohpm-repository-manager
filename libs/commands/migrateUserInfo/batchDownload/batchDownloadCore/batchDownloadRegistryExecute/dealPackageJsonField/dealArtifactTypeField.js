@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.dealArtifactTypeField=void 0;const e=require("../../../../common/repoDefaultVaildConfFunctions"),t=require("./printChangeWarnLog");exports.dealArtifactTypeField=function(r,o,a){const i="artifactType",n=(0,e.getDefaultValueFromValidConf)(i);a[i]||((0,t.printChangeWarnLog)(o,r,a[i],n),a[i]=n)};

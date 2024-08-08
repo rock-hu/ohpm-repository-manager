@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getManifestDbFilter=void 0,exports.getManifestDbFilter=function(e,t){return{verifyName:e,version:t}};

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FileType=void 0,function(e){e[e.HAR=0]="HAR",e[e.HSP=1]="HSP",e[e.METADATA=2]="METADATA",e[e.README=3]="README",e[e.CHANGELOG=4]="CHANGELOG"}(exports.FileType||(exports.FileType={}));

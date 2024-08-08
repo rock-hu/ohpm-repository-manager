@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.CustomValidateError=void 0;class e extends Error{constructor(e,r){super(e),this.messageCN=r}}exports.CustomValidateError=e;

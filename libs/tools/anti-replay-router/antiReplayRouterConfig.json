@@ -1,0 +1,118 @@
+[
+    {
+        "path": "/api/access-token/:type",
+        "method": "POST"
+    },
+    {
+        "path": "/api/access-token/:type",
+        "method": "DELETE"
+    },
+    {
+        "path": "/api/groups",
+        "method": "POST"
+    },
+    {
+        "path": "/api/groups/:id",
+        "method": "PUT"
+    },
+    {
+        "path": "/api/groups/:id",
+        "method": "DELETE"
+    },
+    {
+        "path": "/api/groups/:id/group_members",
+        "method": "POST"
+    },
+    {
+        "path": "/api/groups/:id/group_admins",
+        "method": "POST"
+    },
+    {
+        "path": "/api/groups/:group_id/members/:group_member_id",
+        "method": "DELETE"
+    },
+    {
+        "path": "/api/groups/:group_id/admins/:group_admin_id",
+        "method": "DELETE"
+    },
+    {
+        "path": "/api/public-keys",
+        "method": "POST"
+    },
+    {
+        "path": "/api/public-keys/:id",
+        "method": "DELETE"
+    },
+    {
+        "path": "/api/repos/:id",
+        "method": "PUT"
+    },
+    {
+        "path": "/api/repos/:id/packages/analyze",
+        "method": "POST"
+    },
+    {
+        "path": "/api/repos/:id/packages",
+        "method": "POST"
+    },
+    {
+        "path": "/api/repos/discontinue",
+        "method": "POST"
+    },
+    {
+        "path": "/api/repos/discontinue/batch",
+        "method": "POST"
+    },
+    {
+        "path": "/api/repos/discontinue/check",
+        "method": "POST"
+    },
+    {
+        "path": "/api/system/resetKey",
+        "method": "POST"
+    },
+    {
+        "path": "/api/uplinks",
+        "method": "POST"
+    },
+    {
+        "path": "/api/uplinks/:id",
+        "method": "PUT"
+    },
+    {
+        "path": "/api/uplinks/:id",
+        "method": "DELETE"
+    },
+    {
+        "path": "/api/uplink-proxy/:id",
+        "method": "PUT"
+    },
+    {
+        "path": "/api/users",
+        "method": "POST"
+    },
+    {
+        "path": "/api/users/:id/password",
+        "method": "PUT"
+    },
+    {
+        "path": "/api/users/:id/password/reset",
+        "method": "PUT"
+    },
+    {
+        "path": "/api/users/:id/role",
+        "method": "PUT"
+    },
+    {
+        "path": "/api/users/:id",
+        "method": "DELETE"
+    },
+    {
+        "path": "/api/auth/register",
+        "method": "POST"
+    },
+    {
+        "path": "/api/validation",
+        "method": "POST"
+    }
+]

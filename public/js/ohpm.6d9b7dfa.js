@@ -1,0 +1,1 @@
+class c{constructor(s){this.fromJson(s)}fromJson(s={}){const{id:e,userName:r,password:i,rePassword:o,createTime:t,publicKey:a,name:h}=s;this.userName=r,this.password=i,this.rePassword=o,this.id=e,this.createTime=t,this.publicKey=a,this.name=h}}export{c as o};

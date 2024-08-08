@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.paramsConcatToUrl=void 0,exports.paramsConcatToUrl=function(e,o){const r=[];Object.keys(o).forEach((e=>r.push(e+"="+o[e])));let t=e;return-1===t.search(/\?/)?t+="?"+r.join("&"):t+="&"+r.join("&"),t};

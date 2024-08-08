@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.StorageType=void 0;exports.StorageType=class{constructor(e,s,t,o){this.repoName=e,this.packageName=s,this.version=t,this.isPackage=o}};

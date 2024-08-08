@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.preDealAuthorField=void 0;const e=require("../../../../../../common/OHPackageChecker");exports.preDealAuthorField=function(r){e.OHPackageChecker.dealAuthorField(r)};

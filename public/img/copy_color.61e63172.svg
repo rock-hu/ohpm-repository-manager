@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="14px" viewBox="0 0 12 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>2.Icon图标 / 1.Linear线性 / copy</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03能力中心_个人中心-创建成功提示" transform="translate(-651.000000, -343.000000)">
+            <g id="编组-7" transform="translate(376.000000, 280.000000)">
+                <g id="编组-4" transform="translate(24.000000, 24.000000)">
+                    <g id="copy" transform="translate(250.000000, 39.000000)">
+                        <rect id="矩形" x="0" y="0" width="14" height="14"></rect>
+                        <rect id="矩形" stroke="#007DFF" stroke-linecap="round" stroke-linejoin="round" x="3.9375" y="2.625" width="7.875" height="10.5" rx="1"></rect>
+                        <path d="M2.1875,8.75 L2.1875,1.875 C2.1875,1.32271525 2.63521525,0.875 3.1875,0.875 L8.3125,0.875 L8.3125,0.875" id="路径-11" stroke="#007DFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

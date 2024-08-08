@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.initCtx=void 0,exports.initCtx=function(e,t,o){e.ctx=e.ctx||{},e.ctx.clientIp=e.headers["x-forwarded-for"]||e.connection.remoteAddress||e.socket.remoteAddress||e.connection.socket.remoteAddress,o()};
