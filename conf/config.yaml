@@ -1,7 +1,7 @@
 ##### server configuration section #####
-# listen: https://localhost:8088        # 建议修改为具体的ip:port
-listen:
-  - localhost:8088            # 监听本机环回地址
+listen: https://ohpm-repository-manager.koyeb.app:443        # 建议修改为具体的ip:port
+# listen:
+  # - localhost:8088            # 监听本机环回地址
   # - https://localhost:8088     # 监听本机环回地址
   # - 0.0.0.0:8088              # 监听本机所有地址 (INADDR_ANY)
 # 协议可配置 http 或者 https，默认为http
@@ -13,7 +13,7 @@ https_key: './certificates/server.key'                 # https 服务使用的 k
 https_cert: './certificates/server.crt'                # https 服务使用的 crt 的路径  (不配置默认为'')
 
 ##### server deploy root section #####
-deploy_root: ''                # 安装根目录 (不配置默认为 `<现有用户home目录>/ohpm-repo`)，只支持绝对路径，且路径目录必须存在
+deploy_root: '/app/ohpm-repo'                # 安装根目录 (不配置默认为 `<现有用户home目录>/ohpm-repo`)，只支持绝对路径，且路径目录必须存在
 
 ##### server numeric limit section #####
 max_package_size: 300          # 上传包大小限制，单位是MB (0, 300]，不配置默认为 300
