@@ -17,7 +17,8 @@
     "ohpm:start": "ohpm-repo start",
     "ohpm:bashrc": "touch /app/.bashrc",
     "ohpm:source": "cat /app/.bashrc",
-    "ohpm:serve": "export PATH=$PATH:./bin && npm run ohpm:certificates && npm run ohpm:version && npm run ohpm:bashrc && npm run ohpm:install && npm run ohpm:source && npm run ohpm:start"
+    "ohpm:lsof": "lsof -nP -iTCP:8088 -sTCP:LISTEN",
+    "ohpm:serve": "export PATH=$PATH:./bin && npm run ohpm:certificates && npm run ohpm:version && npm run ohpm:bashrc && npm run ohpm:install && npm run ohpm:source && npm run ohpm:start && npm run ohpm:lsof"
   },
   "keywords": [
     "ohpm",
