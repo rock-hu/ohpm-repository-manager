@@ -1,9 +1,9 @@
 ##### server configuration section #####
-listen: https://ohpm-repository-manager.koyeb.app:443        # 建议修改为具体的ip:port
+# listen: https://ohpm-repository-manager.koyeb.app:443        # 建议修改为具体的ip:port
 # listen:
   # - localhost:8088            # 监听本机环回地址
   # - https://localhost:8088     # 监听本机环回地址
-  # - 0.0.0.0:8088              # 监听本机所有地址 (INADDR_ANY)
+  - 0.0.0.0:8088              # 监听本机所有地址 (INADDR_ANY)
 # 协议可配置 http 或者 https，默认为http
 # port: 1-65535(Window系统)/ 1024-65535(Linux或Mac系统）
 

@@ -209,3 +209,16 @@ erDiagram
 [2024-08-09T10:20:48.777] [INFO] console - install successfully.
 [2024-08-09T10:20:48.786] [ERROR] console - server fail to install: Error: file "/app/.bashrc" is used to store the "deploy_root" path, file "/app/.bashrc" does not exist, please create it.
 ```
+
+
+> Unhealthy Instances   
+  
+Instances are labeled unhealthy when health checks fail.    
+
+Every ten seconds, Koyeb checks all of the network ports opened by your configuration, on each Instance. If any of these ports do not respond after the Instance is booted, the Instance will be declared unhealthy.    
+
+Unresponsive network ports are usually caused by one of these problems:     
+1. Network port configuration issue: the network port you selected is not the one your Service is listening on.    
+2. Binding on localhost instead of 0.0.0.0: if your application is bound to localhost or 127.0.0.1, nobody outside of the container can reach your application. Ensure your application is bound to 0.0.0.0 to make it reachable when deployed.    
+3. Service configuration issue: your Service is not starting due to an application-specific issue like a missing environment variable or a connection issue to another Service.    
+4. Service failure: your Service might fail at startup or when it's processing requests due to a lack of memory or temporary storage.  
