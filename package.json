@@ -15,7 +15,8 @@
     "ohpm:version": "ohpm-repo -v",
     "ohpm:install": "ohpm-repo install",
     "ohpm:start": "ohpm-repo start",
-    "ohpm:serve": "export PATH=$PATH:./bin && npm run ohpm:certificates && npm run ohpm:version && npm run ohpm:install && npm run ohpm:start"
+    "ohpm:bashrc": "touch /app/.bashrc",
+    "ohpm:serve": "export PATH=$PATH:./bin && npm run ohpm:certificates && npm run ohpm:version && npm run ohpm:bashrc && npm run ohpm:install && npm run ohpm:start"
   },
   "keywords": [
     "ohpm",

@@ -193,3 +193,19 @@ erDiagram
 ```bash
 
 ```
+
+
+```
+> @ohos/ohpm-repo@5.0.4 ohpm:install
+> ohpm-repo install
+[2024-08-09T10:20:48.725] [INFO] default - initialize httpsFiles successfully.
+[2024-08-09T10:20:48.733] [DEBUG] default - begin to create new key files.
+[2024-08-09T10:20:48.750] [INFO] default - initialize encryption component successfully.
+[2024-08-09T10:20:48.751] [INFO] default - initialize "file database" successfully.
+[2024-08-09T10:20:48.756] [DEBUG] default - initialize uplinkStorage successfully.
+[2024-08-09T10:20:48.764] [INFO] default - initialize "file storage" successfully.
+[2024-08-09T10:20:48.766] [DEBUG] default - table "group" is not exist, "group" table has been merged into "group_member" table, the current time is "Fri Aug 09 2024 10:20:48 GMT+0000 (Coordinated Universal Time)".
+[2024-08-09T10:20:48.777] [INFO] default - insert repo success: repo's id is 2a8f68dcfa82460fa99baa722f6daaa2.
+[2024-08-09T10:20:48.777] [INFO] console - install successfully.
+[2024-08-09T10:20:48.786] [ERROR] console - server fail to install: Error: file "/app/.bashrc" is used to store the "deploy_root" path, file "/app/.bashrc" does not exist, please create it.
+```
