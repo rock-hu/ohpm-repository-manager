@@ -10,11 +10,12 @@
   },
   "scripts": {
     "preinstall": "export PATH=$PATH:./bin",
-    "postinstall": "mkdir -p ~/ohpm-repo/certificates && cp -r certificates/* ~/ohpm-repo/certificates && ls -l ~/ohpm-repo/certificates",
+    "postinstall": "npm run ohpm:certificates",
+    "ohpm:certificates": "mkdir -p /app/ohpm-repo/certificates && cp -r certificates/* /app/ohpm-repo/certificates && ls -l /app/ohpm-repo/certificates",
     "ohpm:version": "ohpm-repo -v",
     "ohpm:install": "ohpm-repo install",
     "ohpm:start": "ohpm-repo start",
-    "ohpm:serve": "export PATH=$PATH:./bin && npm run ohpm:version && npm run ohpm:install && npm run ohpm:start"
+    "ohpm:serve": "export PATH=$PATH:./bin && npm run ohpm:certificates && npm run ohpm:version && npm run ohpm:install && npm run ohpm:start"
   },
   "keywords": [
     "ohpm",
