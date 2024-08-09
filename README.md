@@ -98,6 +98,19 @@ hsbcnetmobile@Qianwens-MacBook-Pro ohpm-repository-manager % ohpm-repo start
 
 ### [config.yaml  配置文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/ide-ohpm-repo-configuration-0000001796516529-V5)
 
+### Access Token    
+
+- 只读token: MTlmYzZmMDVjMzY5NDVmNDg0ODBkZWYyMDhmMTkxODM=
+- 读写token: ZjIzMmY1ZWYwMzM0NDk3ZDkyYzZmMmZmMzg1MTUzODI=
+
+
+1、 AccessToken作用：增加客户端认证方式，ohpm客户端使用AccessToken认证时可省去输入密码的步骤。  
+2、 AccessToken生成：AccessToken只在生成时完整显示一次并自动复制到剪切板中，后续只显示脱敏后token，每种类型最多生成10条token。  
+3、 AccessToken类型：只读token只可访问除上架、下架包之外的接口，读写token可访问全部接口。   
+4、 AccessToken使用：   
+4-1、 在ohpm客户端的配置文件.ohpmrc中新增一行'//<ip>:<port>/repos/ohpm/:_auth=<token>'。    
+4-2、 '//<ip>:<port>/repos/ohpm/'是客户端publis_registry去除协议名的部分url,'<token>'是生成的token。    
+4-3、 使用ohpm客户端执行publish命令。   
 
 ## schemas  
 
