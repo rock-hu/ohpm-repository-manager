@@ -8,6 +8,14 @@
   "bin": {
     "ohpm-repo": "./bin/repo.js"
   },
+  "scripts": {
+    "preinstall": "export PATH=$PATH:./bin",
+    "postinstall": "mkdir -p ~/ohpm-repo/certificates && cp -r certificates/* ~/ohpm-repo/certificates && ls -l ~/ohpm-repo/certificates",
+    "ohpm:version": "ohpm-repo -v",
+    "ohpm:install": "ohpm-repo install",
+    "ohpm:start": "ohpm-repo start",
+    "ohpm:serve": "npm run ohpm:version && npm run ohpm:install && npm run ohpm:start"
+  },
   "keywords": [
     "ohpm",
     "ohpm-repo"

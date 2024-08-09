@@ -87,7 +87,96 @@ export PATH=$PATH:./bin
 
 
 ```bash
-ohpm-repo start
+hsbcnetmobile@Qianwens-MacBook-Pro ohpm-repository-manager % ohpm-repo start
+[2024-08-09T16:21:52.655] [INFO] default - config file path: "/Users/hsbcnetmobile/ohpm-repo/conf/config.yaml".
+[2024-08-09T16:21:52.661] [INFO] default - initialize "file database" successfully.
+[2024-08-09T16:21:52.662] [INFO] default - initialize "file storage" successfully.
+[2024-08-09T16:21:52.663] [DEBUG] default - initialize uplinkStorage successfully.
+[2024-08-09T16:21:52.724] [INFO] console - https address - localhost:8088 - ohpm-repo/5.0.4.
+[2024-08-09T16:25:48.154] [INFO] default - 24c834c8c7484c9ba075c0d2ebc7ba3b login success unlock user.
 ```
 
 ### [config.yaml  配置文件](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/ide-ohpm-repo-configuration-0000001796516529-V5)
+
+
+## schemas  
+
+
+```mermaid
+---
+title: ohpm schema
+---
+erDiagram
+    download_package {
+
+    }
+    adminauditlog {
+
+    }
+    cachedata{
+
+    }
+    dependency{
+
+    }
+    deployedinstance{
+
+    }
+    downloadfailure{
+
+    }
+    groupmember{
+
+    }
+    loginfailure{
+
+    }
+    loginstatus{
+
+    }
+    packagemanifest{
+
+    }
+    packagemetadata{
+
+    }
+    publickey{
+
+    }
+    repo {
+        varchar(128) id PK
+        varchar(32) name
+        varchar(1024) description
+        varchar(32) uplink
+    }
+    uplink{
+
+    }
+    uplinkproxy{
+
+    }
+    user{
+        varchar(64) id
+        varchar(32) name
+        varchar(256) password
+        varchar(64) salt
+        tinyint role
+        varchar(64) publishId
+    }
+    validation_config{
+
+    }
+    access_token{
+        varchar(64) id
+        varchar(256) token
+        tinyint type
+        varchar(64) userId
+    }
+    dist_tags{
+
+    }
+```
+
+```bash
+
+```
